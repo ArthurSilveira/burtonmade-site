@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import logo from './assets/images/logo.svg'
 import './App.css'
 import Header from './components/header/Header.js'
-// import PageFooter from './components/page-footer/PageFooter.js'
+import Footer from './components/footer/Footer.js'
 import Main from './components/Main.js'
 
 class App extends Component {
@@ -12,9 +12,9 @@ class App extends Component {
         <div className='page-container'>
           <Header headerLogo={logo} buttonCopy='Get Started'/>
           <Main/>
-          {/* <div className='center-row'>
-            <PageFooter footerLogo={logo}/>
-          </div> */}
+          <div className='center-row'>
+            <Footer footerLogo={logo}/>
+          </div>
         </div>
       </div> // ends App
     )

@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  background: #141311;
+  color: white;
 }
 
 *, *:before, *:after {
@@ -22,7 +24,7 @@ img {
 
 a, button {
   cursor: pointer;
-  color: #53585f !important;
+  color: white !important;
   text-transform: capitalize;
   text-decoration: none;
 }
