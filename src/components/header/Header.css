@@ -82,7 +82,7 @@ header {
   width: 26px;
   height: 4px;
   transform: translateY(13px);
-  background-color: #00cc66;
+  background-color: #FFF;
 }
 
 .burger-button:before {
@@ -92,7 +92,7 @@ header {
   width: 26px;
   height: 4px;
   transform: translateY(-200%);
-  background-color: #00cc66;
+  background-color: #FFF;
 }
 
 .burger-button:after {
@@ -102,7 +102,7 @@ header {
   width: 26px;
   height: 4px;
   transform: translateY(100%);
-  background-color: #00cc66;
+  background-color: #FFF;
 }
 
 .close {
@@ -116,7 +116,7 @@ header {
   width: 26px;
   height: 4px;
   transform: translateY(50%) rotate(45deg);
-  /*background-color: #53585f;*/
+  background-color: #A2482E;
 }
 
 .close:after {
@@ -125,7 +125,7 @@ header {
   width: 26px;
   height: 4px;
   transform: translateY(-50%) rotate(-45deg);
-  /*background-color: #53585f;*/
+  background-color: #A2482E;
 }
 
 .dropdown {
@@ -193,9 +193,9 @@ header {
 }
 
 .trufit-button {
-  background: #00cc66;
+  background: #A2482E;
   color: #fff !important;
-  border: 2px solid #00cc66;
+  border: 2px solid #A2482E;
   border-radius: 2em;
   padding: .5em 1.5em;
   white-space: nowrap;
@@ -220,7 +220,7 @@ img {
     align-items: center;
   }
   .mobile-phone-number > a {
-    color: #00cc66 !important;
+    color: #A2482E !important;
     font-size: 1.5em;
     font-weight: 500 !important;
   }
