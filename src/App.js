@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className='page-container'>
-          <Header headerLogo={logo} buttonCopy='Shop'/>
+          <Header headerLogo={logo} buttonCopy='Store'/>
           <Main/>
           <div className='center-row'>
             <Footer footerLogo={logo}/>
