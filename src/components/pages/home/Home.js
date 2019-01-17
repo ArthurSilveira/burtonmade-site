@@ -8,7 +8,7 @@ const Home = () => (
       <img src={heroImage} alt="404"/>
     </div>
     <div className="page-section center-row">
-      <div className="page-title">RECLAIMED</div>
+      <div className="page-title">Main Title</div>
       <div>Home page stuff</div>
     </div>
   </div>
