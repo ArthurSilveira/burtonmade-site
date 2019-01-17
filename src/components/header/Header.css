@@ -1,19 +1,19 @@
 header {
   position: fixed;
-  height:8em;
+  height:6em;
   width: 100%;
   left: 0;
   top: 0;
   z-index: 6;
-  /* background: #fff; */
+  background: #252420; 
 }
 
 .head-container {
   position: relative;
-  /* background: #fff; */
+  background: #252420;
   height: 100%;
   z-index: 6;
-  padding-top: 2em;
+  padding: 1em;
 }
 
 .head-inner {
@@ -161,7 +161,7 @@ header {
   width: 100%;
   padding: 0 2em 2em 2em;
   border-radius: 0 0 25px 25px;
-  background: #fff;
+  background: #252420;
   -webkit-box-shadow: 0 3px 13px 0 rgba(0,0,0,.5);
   box-shadow: 0 3px 13px 0 rgba(0,0,0,.5);
   transition-duration: .4s;
@@ -225,6 +225,10 @@ img {
     color: #A2482E !important;
     font-size: 1.5em;
     font-weight: 500 !important;
+  }
+  .head-image {
+    width: 9em;
+    height: auto;
   }
 }
 

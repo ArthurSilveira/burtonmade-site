@@ -19,7 +19,7 @@
   height: 100%;
   display: flex;
   flex-flow: column;
-  margin-top: 9em;
+  margin-top: 6em;
   min-height: 30em;
   /* background: red; */
 }
@@ -37,7 +37,7 @@
 }
 
 .section-subtitle {
-  color: #44403e;
+  color: red;
   font-size: 1em;
   font-weight: 600;
 }
