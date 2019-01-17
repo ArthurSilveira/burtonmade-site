@@ -3,7 +3,10 @@ import './Contact.css'
 
 const Contact = () => (
   <div className='contact-page page-wrapper'>
-    Contact page : )
+    <div className="page-section">
+      <div className="page-title">CONTACT</div>
+      <div>A contact form will go here that will email you directy when filled out.</div>
+    </div>
   </div>
 )
 

@@ -24,6 +24,14 @@
   /* background: red; */
 }
 
+.page-section {
+  min-height: 30em;
+  display: flex;
+  flex-direction: column;
+  padding: 3em 2em;
+  background: #21201b;
+}
+
 .page-content {
   font-weight: 500;
   height: 100%

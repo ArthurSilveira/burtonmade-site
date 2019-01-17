@@ -7,9 +7,9 @@ const Home = () => (
     <div class="hero-image">
       <img src={heroImage} alt="404"/>
     </div>
-    <div className="page-section center-row">
-      <div className="page-title">Main Title</div>
-      <div>Home page stuff</div>
+    <div className="page-section">
+      <div className="page-title">MAIN TITLE</div>
+      <div>Some more home page content goes in here</div>
     </div>
   </div>
 )
