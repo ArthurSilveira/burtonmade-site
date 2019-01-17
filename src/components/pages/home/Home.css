@@ -1,10 +1,27 @@
 .hero-image {
     max-height: 30em;
     overflow: hidden;
+    background: #21201b;
 }
 
 .hero-image img {
     width: 100%;
     height: auto;
-    transform: translateY(-20%);
+    transform: translateY(-15%);
 }
+
+@media screen and (max-width: 45em) {
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        transform: none;
+    }
+  }
+  
+  @media screen and (max-width: 55em) {
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        transform: none;
+    }
+  }
